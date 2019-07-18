@@ -10,6 +10,7 @@ import java.util.Set;
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class User {
     @Id
+    @GeneratedValue
     private int id;
     private String username;
     private String firstName;

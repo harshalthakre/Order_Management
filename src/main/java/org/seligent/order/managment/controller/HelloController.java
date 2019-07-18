@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 // when spring starts up it start scan in classpath and find controllers
 // the request controller is registered
 @RestController
+@RequestMapping("/secure")
 public class HelloController {
 
     @RequestMapping("/hello") // maps by default to GET method
